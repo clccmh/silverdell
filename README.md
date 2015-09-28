@@ -14,5 +14,5 @@
 ####About:
 - Built on a LAMP stack
 - Uses html, css, php
-- Makes use of twitter's bootstrap
+- Makes use of [twitter's bootstrap](http://getbootstrap.com/)
 
