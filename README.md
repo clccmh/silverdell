@@ -10,3 +10,8 @@
 - The next facebook
 - The next twitter
 - The next google+ (god help us)
+
+###About:
+- Built on a LAMP stack
+- Uses html, css, php
+- Makes use of twitter's bootstrap
