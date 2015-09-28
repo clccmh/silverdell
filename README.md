@@ -13,6 +13,6 @@
 
 ####About:
 - Built on a LAMP stack
-- Uses html, css, php
+- Uses html, css, php, and mySQL
 - Makes use of [twitter's bootstrap](http://getbootstrap.com/)
 
