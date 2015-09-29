@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Social Media - Login</title>
+    <meta name="viewport" content="width=device-width, initial -scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="./css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid"> <a class="navbar-brand" href="index.html">Silver Dell</a>
+            <div id="postform">
+                <form class="navbar-form navbar-right" name="settings"> <a type="button" class="btn btn-default" id="loginbutton" href="login.html">Login</a> <a type="button" class="btn btn-default" id="loginbutton" href="register.html">Register</a> </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <p>
+                <center>
+                    <h1> Login </h1>
+                    <form method="POST" action="login.php">
+                        <input type="text" name="user" size="40" placeholder="Username" required>
+                        <br>
+                        <br>
+                        <input type="password" name="pass" size="40" placeholder="Password" required>
+                        <br>
+                        <br>
+                        <input class="btn btn-success" id="button" type="submit" name="submit" value="Log-In"> </form>
+                    <br>Don't Have An Account?
+                    <br>
+                    <a class="btn" href="register.html"> Register </a>
+                </center>
+            </p>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

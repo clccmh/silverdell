@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<title>Silver Dell - Register</title>
+
+		<meta name="viewport" content="width=device-width, initial -scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="./css/custom.css" rel="stylesheet">
+
+	</head>
+	
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">Silver Dell</a>
+				<div id="postform">
+					<form class="navbar-form navbar-right" name="settings">
+						<a type="button" class="btn btn-default" id="loginbutton" href="login.html">Login</a>
+						<a type="button" class="btn btn-default" id="loginbutton" href="register.html">Register</a>
+						</button>
+					</form>
+					
+				</div>
+			</div>
+		</nav>
+	<body class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+				<p><center>
+					<br><h1> Register With Us </h1>
+					<form method="POST" action="register.php"> 
+						<br><input type="text" name="email" size="40" placeholder="Email" required><br> 
+						<br><input type="text" name="user" size="40" placeholder="Username" required><br> 
+						<br><input type="password" name="pass" size="40" placeholder="Password" required><br> 
+						<br><input type="text" name="first" size="40" placeholder="First Name" required><br> 
+						<br><input type="text" name="last" size="40" placeholder="Last Name" required><br> 
+						
+						<br><small>Please copy the digits from the image into this box.</small></p>
+						<p><img src="includes/captcha.php" width="120" height="30" border="1" alt="CAPTCHA"></p>
+						<p><input type="text" size="6" maxlength="5" name="captcha" value="" required><br>
+						<br><input class="btn btn-success" id="button" type="submit" name="submit" value="Register"> 
+					</form>
+				</center></p>
+			</div>
+			<div class="col-md-4"></div>
+
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/register.js"></script>
+
+	</body>
+</html>
+
